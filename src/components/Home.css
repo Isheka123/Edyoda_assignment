@@ -1,0 +1,58 @@
+/* HomePage.css */
+.homepage {
+    background-image: url('../assets/Background.png');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+   
+  }
+  
+  
+.highlight {
+    text-decoration: line-through; 
+    text-decoration-color: #CF9FFF; 
+    text-decoration-thickness: 2px; 
+    text-decoration-skip-ink: none; 
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 80px;
+    padding-top:50px;
+    color: white;
+  }
+  
+  .left-section h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .feature img {
+    width: 40px; 
+    margin-right: 10px;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   
+  }
+  .feature p {
+    font-size: 20px;
+  }
+   
+  .element{
+    color:#0096FF;
+  }
+
+
+  
+  @media (max-width: 768px) {
+    .homepage{
+      display:block;
+    }
+    .h2{
+      font-size:20px;
+    }
+  }
+  
